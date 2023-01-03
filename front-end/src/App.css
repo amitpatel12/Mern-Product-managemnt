@@ -1,0 +1,185 @@
+.App{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 100vw;
+  display: flex;
+  
+  
+}
+.nav-ul{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: skyblue;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+.nav-ul li{
+  padding: 10px;
+  margin: 10px;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.nav-ul li a{
+  text-decoration: none;
+  border-radius: 15px;
+  color: white;
+  padding: 12px;
+  /* background-color: rgb(251, 251, 254); */
+
+}
+
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: skyblue;
+}
+
+.inputBox{
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid skyblue;
+}
+
+.register, .product{
+  margin-left: 30%;
+}
+
+.login{
+  margin-left: 30%;
+  margin-top: 100px;
+}
+
+.appButton{
+  background-color: skyblue;
+  margin-left: 25px;
+  border:none;
+  padding: 12px;
+  font-size: 17px;
+  color: white;
+  width: 150px;
+  cursor: pointer;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.nav-right{
+  justify-content: flex-end;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.logo{
+  width: 53px;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  border-radius: 50%;
+  margin-top: 3px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.invalid-input{
+  color: red;
+  margin-top: -20px;
+  display: block;
+  margin-left: 20px;
+}
+.product-list{
+  text-align: center;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.product-list ul li{
+  display: inline-block;
+  border: 1px solid skyblue;
+  padding: 9px;
+  width: 150px;
+  margin: 0;
+}
+
+.product-list ul li button{
+  margin:-8px;
+  margin-right: 10px;
+}
+
+.product-list ul li a{
+  margin: -15px;
+  padding: 0px;
+  padding: 3px;
+  margin-left: 5px;
+}
+
+
+.search-product-box {
+  margin: 20px;
+  padding: 7px 9px;
+  border: 1px solid skyblue;
+  width: 400px;
+  font-size: 17px;
+}
+.no-result-found{
+  margin-top: 20px;
+}
+
+/* .product-list ul .operations{
+  /* width: 200px; */
+
+  .operations button,  .operations a{
+    color: black;
+  }
+ 
+
+.product-list ul{
+  margin: 0;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .product-list {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
